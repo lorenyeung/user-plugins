@@ -33,7 +33,7 @@ download {
                 return
             }
 
-            // Find correct path @types/immutablethree/-/immutablethree-3.8.1.tgz vs existing path @types/immutablethree/-/@types/immutablethree-3.8.1.tgz
+            // Find correct path @loren/test/-/test-1.8.1.tgz vs existing path @loren/test/-/@types/test-1.8.1.tgz
             String pkgFullName = request.getRepoPath().getName()
             String[] matcher;
             matcher = path.path.split('/')           
